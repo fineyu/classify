@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/allfood.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <div class="all_food">
+        <div class="all_header">
+            <div class="header_left">
+                <img src="img/fanhuitubiao拷贝2@2x.png" alt="">
+            </div>
+            <div class="header_right">
+                <img src="img/sousuo@2x.png" alt="">
+                <input type="text" placeholder="土特产">
+                <img src="img/yuyin@2x.png" alt="">
+            </div>
+        </div>
+        <div class="food_details">
+            <div class="details_left">
+                <ul>
+                    <li class="white green" id="all"><img src="img/fenleixuanzhong@2x.png" alt=""> <span>全部</span></li>
+                    <li id="farm"><img src="img/nongye@2x.png" alt=""> <span>农业</span></li>
+                    <li id="capital"><img src="img/nongziweixuan@2x.png" alt=""> <span>农资</span></li>
+                </ul>
+            </div>
+            <div class="details_right">
+                <div class="all">
+                            <a href="javascript:void(0)" class="food_con">
+                                <img src="img/chanpin@2x.png" alt="">
+                                <span>水果</span>
+                            </a>
+                            <a href="javascript:void(0)" class="food_con">
+                                <img src="img/chanpin@2x.png" alt="">
+                                <span>水果</span>
+                            </a>
+                            <a href="javascript:void(0)" class="food_con">
+                                    <img src="img/chanpin@2x.png" alt="">
+                                    <span>水果</span>
+                            </a>
+                            <a href="javascript:void(0)" class="food_con">
+                                    <img src="img/chanpin@2x.png" alt="">
+                                    <span>水果</span>
+                            </a>
+                            <a href="javascript:void(0)"  class="food_con">
+                                    <img src="img/chanpin@2x.png" alt="">
+                                    <span>水果</span>
+                            </a>
+                            <a href="javascript:void(0)" class="food_con">
+                                    <img src="img/chanpin@2x.png" alt="">
+                                    <span>水果</span>
+                            </a>
+                            <a  href="javascript:void(0)" class="food_con">
+                                    <img src="img/chanpin@2x.png" alt="">
+                                    <span>水果</span>
+                            </a>
+                            <a   href="javascript:void(0)" class="food_con">
+                                    <img src="img/chanpin@2x.png" alt="">
+                                    <span>水果</span>
+                            </a>
+                            <a  href="javascript:void(0)" class="food_con">
+                                    <img src="img/chanpin@2x.png" alt="">
+                                    <span>水果</span>
+                            </a>
+                            <a  href="javascript:void(0)" class="food_con">
+                                    <img src="img/chanpin@2x.png" alt="">
+                                    <span>水果</span>
+                            </a>
+                            <a  href="javascript:void(0)" class="food_con">
+                                    <img src="img/chanpin@2x.png" alt="">
+                                    <span>水果</span>
+                            </a>
+                            <a  href="javascript:void(0)" class="food_con">
+                                    <img src="img/chanpin@2x.png" alt="">
+                                    <span>水果</span>
+                            </a>
+                </div>
+                <div class="farm none">
+                    2
+                </div>
+                <div class="capital none">
+                    3
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/allfood.js"></script>
+    <script>document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+"px"</script>
+    <script>
+        $("#all").click(function(){
+            $(".all").show().siblings().hide();
+            $(this).addClass("white green").siblings().removeClass("white green")
+        })
+        $("#farm").click(function(){
+            $(".farm").show().siblings().hide();
+            $(this).addClass("white green").siblings().removeClass("white green")
+        })
+        $("#capital").click(function(){
+            $(".capital").show().siblings().hide();
+            $(this).addClass("white green").siblings().removeClass("white green")
+        })
+    </script>
+</body>
+</html>
