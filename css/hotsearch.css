@@ -1,31 +1,39 @@
 /* 顶部 */
-.hot_search{
-    width: 100%;
-    height: 100vh;
-    background-color: #f8f8f8;
+.html,body{
+    /* width: 100%;
+    height: 100vh; */
+    background-color: #f8f8f8 !important;
 }
 .search_header{
-    width: 95%;
-    height:8vh;
-    line-height: 1.03;
+    width: 6.98rem;
+    /* height:1.03rem; */
+    height: 7.7vh;
+    line-height:  7.7vh;
     padding: 0 0.26rem;
-    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #f8f8f8;
 }
 .header_left img{
     width: 0.54rem;
-    height: 0.54rem;
+    /* height: 0.54rem; */
+    height: 4vh;
     position: absolute;
-    bottom:0.27rem;
+    /* bottom:0.27rem; */
+    bottom: 2vh;
 }
 .header_right input{
     width: 5.45rem;
-    height: 0.65rem;
+    /* height: 0.65rem; */
+    height: 4.9vh;
     border-radius:0.4rem;
     background-color: #f8f8f8;
     border:0.01rem solid #666;
     margin-left:0.8rem;
     position: absolute;
-    bottom:0.17rem;
+    /* bottom:0.17rem; */
+    bottom: 1.3vh;
     padding-left: 0.65rem;
     color:#c1c1c1;
     font-family: "Simhei";
@@ -33,25 +41,131 @@
 }
 .header_right img:nth-child(1){
     width: 0.37rem;
-    height: 0.37rem;
+    /* height: 0.37rem; */
+    height: 2.8vh;
     position: absolute;
     left:1.3rem;
-    bottom: 0.31rem;
+    /* bottom: 0.31rem; */
+    bottom: 2.3vh;
     z-index: 100;
 }
 .header_right img:nth-child(3){
     width: 0.29rem;
-    height: 0.44rem;
+    /* height: 0.44rem; */
+    height: 3.3vh;
     position: absolute;
     right:0.8rem;
-    bottom:0.32rem;
+    /* bottom:0.32rem; */
+    bottom: 2.4vh;
 }
 
-/* 内容 */
-.recent_details .recent_header{
-    width: 100%;
-    height: 0.7rem;
+/* 最近搜索 */
+.recent_tit{
+    width: 6.98rem;
+    /* height: 0.7rem; */
+    height: 5.2vh;
+    line-height: 5.2vh;
     background-color: #fff;
     border-bottom:0.01rem solid #f8f8f8;
+    padding:0 0.26rem;
+    margin-top: 7.7vh;
+}
+.recent_left{
+    float:left;
+}
+.recent_right {
+    float:right;
+}
+.recent_left img{
+    width: 0.32rem;
+    /* height: 0.32rem; */
+    height: 2.4vh;
+}
+.recent_left span{
+    font-size: 0.3rem;
+    font-family: "Simhei";
+    color:#666;
+}
+.recent_right img{
+    width: 0.32rem;
+    /* height: 0.32rem; */
+    height: 2.4vh;
+}
+.recent_right span{
+    font-family: "Simhei";
+    font-size: 0.26rem;
+    color:#57c340;
+}
+.recent_con{
+    width: 6.98rem;
+    padding: .1rem 0.26rem;
+    background-color: #fff;
+    overflow: hidden;
+    border-bottom: 0.04rem solid #eee;
+}
+.recent_con span{
+    text-align: center;
+    display: block;
+    float: left;
+    padding:0.2rem 0.46rem;
+    /* height: 0.21rem; */
+    height: 1.6vh;
+    margin:.1rem 0.1rem;
+    line-height: 0.21rem;
+    background-color: #f8f8f8;
+    font-family: "Simhei";
+    font-size: 0.26rem;
+    color:#060101;
+}
+
+/* 热门搜素 */
+.hot_tit{
+    width: 6.98rem;
+    /* height: 0.7rem; */
+    height: 5.2vh;
+    line-height: 5.2vh;
+    background-color: #fff;
+    border-bottom:0.01rem solid #f8f8f8;
+    padding:0 0.26rem;
+}
+.hot_left{
+    float:left;
+}
+
+.hot_left img{
+    width: 0.32rem;
+    /* height: 0.32rem; */
+    height: 2.4vh;
+}
+.hot_left span{
+    font-size: 0.3rem;
+    font-family: "Simhei";
+    color:#666;
+}
+.hot_con{
+    width: 6.98rem;
+    padding: .1rem 0.26rem;
+    background-color: #fff;
+    overflow: hidden;
+    border-bottom: 0.04rem solid #eee;
+    margin: auto;
+}
+.hot_con span{
+    text-align: center;
+    display: block;
+    float: left;
+    padding:0.2rem 0.46rem;
+    /* height: 0.21rem; */
+    height: 1.6vh;
+    margin:.1rem 0.1rem;
+    line-height: 1.6vh;
+    background-color: #f8f8f8;
+    font-family: "Simhei";
+    font-size: 0.26rem;
+    color:#060101;
+}
+.change{
+    /* margin-top: 1.03rem; */
+    margin-top: 7.7vh;
 }
 

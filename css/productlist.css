@@ -1,0 +1,157 @@
+/* 顶部 */
+html,body{
+    background-color: #f8f8f8 !important;
+    /* overflow: auto; */
+}
+.header{
+    width: 6.98rem;
+    height: 7.7vh;
+    line-height: 7.7vh;
+    padding: 0 0.26rem;
+    text-align: center;
+    position: relative;
+    background-color: #f8f8f8;
+    font-family: "Simhei";
+    font-size: 0.38rem;
+    color: #060101;
+    position:fixed;
+    z-index: 1000;
+}
+.header img{
+    width: 0.54rem;
+    height: 4vh;
+    position: absolute;
+    bottom: 2vh;
+    left: 0.26rem;
+}
+/* 标题 */
+.product_tit{
+    width: 6.98rem;
+    padding:0 0.26rem;
+    height:7.1vh;
+    overflow: hidden;
+    position:fixed;
+    z-index: 1000;
+    margin-top: 7.7vh;
+}
+.product_tit span{
+    display: block;
+    float: left;
+    height: 6vh;
+    line-height: 6vh;
+    text-align: center;
+    width: 49.8%;
+    background-color: #fff;
+    color:#666;
+    font-family: "Simhei";
+    font-size: 0.3rem;
+    box-shadow: 0 0.04rem 0 #f1f1f1;
+    border-radius: 0.08rem;
+}
+.product_tit span:nth-child(1){
+    float: left;
+    border-right:0.01rem solid #f8f8f8;
+}
+.product_tit span:nth-child(2){
+    float:right;
+}
+.product_tit span img{
+    width: 0.32rem;
+    height: 1.8vh; 
+}
+.scale{
+    -moz-transform:scaleY(-1);
+    -webkit-transform:scaleY(-1);
+    -o-transform:scaleY(-1);
+    transform:scaleY(-1);
+}
+.green{
+    color:#57c340 !important;
+}
+/* 详细内容 */
+.product_details{
+    width: 6.98rem;
+    padding: 0 0.26rem;
+    height: 30.5vh;
+    margin-bottom: 0.9vh;
+}
+.product_details .product_left,.product_right{
+    width: 49.3%;
+    height: 30.5vh;
+    background-color: #fff;
+    
+}
+.product_left{
+    margin-right: 0.09rem;
+    float: left;
+}
+.product_right{
+    float: right;
+}
+.product_img img{
+    width: 3.47rem;
+    height: 21.5vh;
+}
+.product_word h5{
+    font-family: "Simhei";
+    font-size: 0.26rem;
+    padding: 0.02rem  0 0.02rem 0.15rem;
+}
+.product_word p{
+    font-family: "Simhei";
+    font-size: 0.2rem;
+    color:#999;
+    padding: 0.02rem  0 0.02rem 0.15rem;
+}
+.product_word span{
+    display: block;
+    font-size: 0.28rem;
+    color:#060101;
+    padding: 0.02rem  0 0.02rem 0.15rem;
+    position: absolute;
+    bottom: 0.1vh;
+}
+.product_word{
+    position: relative;
+    height: 9vh;
+    /* width: 6.98rem; */
+}
+.product_word img{
+    width: 0.48rem;
+    height: 3.59vh;
+    position: absolute;
+    bottom: 0.1vh;
+    right: 0.15rem;position: absolute;
+    bottom: 0.1vh;
+    right: 0.15rem;
+}
+.pro_con{
+    padding-top: 14.8vh;
+}
+/* 综合排序 */
+.sort{
+    width: 6.98rem;
+    border-bottom-right-radius: 0.08rem;
+    border-bottom-left-radius: 0.08rem;
+    z-index: 1000;
+    position: fixed;
+    right: 0.26rem;
+    top:13.7vh;
+}
+.sort span{
+    display: block;
+    width: 6.82rem;
+    height: 6vh;
+    padding-left: 0.16rem;
+    line-height: 6vh;
+    background-color: #fff;
+    border-bottom: 0.01rem solid #eee;
+    font-family: "Simhei";
+    font-size: 0.3rem;
+}
+.sort span:nth-child(1){
+    border-top: 0.01rem solid #eee;
+}
+.none{
+    display: none;
+}

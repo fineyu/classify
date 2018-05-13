@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
-    <div class="hot_search">
-        <div class="search_header">
+        <!-- 顶部 -->
+    <div class="search_header">
             <div class="header_left">
                 <img src="img/fanhuitubiao拷贝2@2x.png" alt="">
             </div>
@@ -19,25 +19,61 @@
                 <input type="text" placeholder="土特产">
                 <img src="img/yuyin@2x.png" alt="">
             </div>
-        </div>
-        <div class="all_search">
-            <div class="recent_details">
-                <div class="recent_header">
-                    
-                </div>
-                <div class="recent_con"></div>
+    </div>
+        <!-- 最近搜索 -->
+    <div class="recent">
+        <div class="recent_tit">
+            <div class="recent_left">
+                <img src="img/sousuo拷贝@2x.png" alt="">
+                <span>最近搜索</span>
             </div>
-            <div class="hot_details">
-                <div class="hot_header"></div>
-                <div class="hot_con"></div>
+            <div class="recent_right" id="remove">
+                <img src="img/qingchu@2x.png" alt="">
+                <span>清除记录</span>
             </div>
         </div>
-    </div>    
+        <div class="recent_con">
+            <span>苹果</span>
+            <span>坚果</span>
+            <span>枸杞</span>
+            <span>红枣</span>
+            <span>辣椒苗</span>
+            <span>山东特产</span>
+            <span>零食</span>
+            <span>树苗</span>
+        </div>
+    </div>
+        <!-- 热门搜索 -->
+    <div class="hot">
+        <div class="hot_tit">
+            <div class="hot_left">
+                <img src="img/remen@2x.png" alt="">
+                <span>热门搜索</span>
+            </div>
+        </div>
+        <div class="hot_con">
+                <span>苹果</span>
+                <span>坚果</span>
+                <span>枸杞</span>
+                <span>红枣</span>
+                <span>坚果</span>
+                <span>红枣</span>
+                <span>零食</span>
+                <span>树苗</span>
+        </div>
+    </div>
+     
 
 
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/hotsearch.js"></script>
     <script>document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+"px"</script>
-   
+    <script>
+        // 清除记录
+        $("#remove").click(function(){
+            $(".recent").hide();
+            $(".hot").addClass("change")
+        })
+    </script>
 </body>
 </html>

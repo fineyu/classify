@@ -2,31 +2,38 @@
 .all_food{
     width: 100%;
     height: 100vh;
+    /* width: 7.5rem;
+    height: 13.34rem; */
 }
 .all_header{
     width: 95%;
-    height:8vh;
-    /* height: 1.03rem; */
-    line-height: 1.03;
+    height:7.7vh;
+    /* width: 6.98rem;
+    height: 1.03rem; */
+    line-height: 7.7vh;
     padding: 0 0.26rem;
     background-color: #f8f8f8;
     position: relative;
 }
 .header_left img{
     width: 0.54rem;
-    height: 0.54rem;
+    /* height: 0.54rem; */
+    height: 4vh;
     position: absolute;
-    bottom:0.27rem;
+    /* bottom:0.27rem; */
+    bottom: 2vh;
 }
 .header_right input{
     width: 5.45rem;
-    height: 0.65rem;
+    /* height: 0.65rem; */
+    height: 4.87vh;
     border-radius:0.4rem;
     background-color: #f8f8f8;
     border:0.01rem solid #666;
     margin-left:0.8rem;
     position: absolute;
-    bottom:0.17rem;
+    /* bottom:0.17rem; */
+    bottom: 1.27vh;
     padding-left: 0.65rem;
     color:#c1c1c1;
     font-family: "Simhei";
@@ -34,35 +41,43 @@
 }
 .header_right img:nth-child(1){
     width: 0.37rem;
-    height: 0.37rem;
+    /* height: 0.37rem; */
+    height: 2.77vh;
     position: absolute;
     left:1.3rem;
-    bottom: 0.31rem;
+    /* bottom: 0.31rem; */
+    bottom: 2.3vh;
     z-index: 100;
 }
 .header_right img:nth-child(3){
     width: 0.29rem;
-    height: 0.44rem;
+    /* height: 0.44rem; */
+    height: 3.3vh;
     position: absolute;
     right:0.8rem;
-    bottom:0.32rem;
+    /* bottom:0.32rem; */
+    bottom: 2.4vh;
 }
 
 /* 详细内容 */
 .food_details{
     width: 100%;
-    height: 92vh;
+    height: 92.3vh;
+    /* width: 7.5rem;
+    height: 12.31rem; */
 }
 .details_left{
     width: 1.79rem;
-    height: 92vh;
+    height: 92.3vh;
+    /* height: 12.31rem; */
     background-color: #f8f8f8;
     float: left;
 }
 .details_right .all,.farm,.capital{
     width: 5.71rem;
-    height:90vh;
-    padding-top: 2vh;
+    height:92.27vh;
+    /* height: 12.31rem; */
+    /* padding-top: 2vh; */
     background-color: #fff;
     float: left;
     margin: auto;
@@ -70,8 +85,9 @@
 
 .details_left ul li{
     width: 100%;
-    height: 1.07rem;
-    line-height: 1.07rem;
+    /* height: 1.07rem; */
+    height: 8vh;
+    line-height:8vh;
     font-size: 0.34rem;
     font-family: "Simhei";
     color:#060101;
@@ -82,10 +98,12 @@
 }
 .details_left ul li:nth-child(1) img{
     width: 0.38rem;
-    height: 0.38rem;
+    /* height: 0.38rem; */
+    height: 2.8vh;
     margin-left: 0.26rem;
     position: absolute;
-    bottom:0.35rem;
+    /* bottom:0.35rem; */
+    bottom: 2.6vh;
 }
 .details_left ul li span{
     position: absolute;
@@ -93,23 +111,28 @@
 }
 .details_left ul li:nth-child(2) img{
     width: 0.48rem;
-    height: 0.45rem;
+    /* height: 0.45rem; */
+    height: 3.37vh;
     margin-left: 0.26rem;
     position: absolute;
-    bottom:0.35rem;
+    /* bottom:0.35rem; */
+    bottom: 2.6vh;
 }
 .details_left ul li:nth-child(3) img{
     width: 0.40rem;
-    height: 0.48rem;
+    /* height: 0.48rem; */
+    height: 3.6vh;
     margin-left: 0.26rem;
     position: absolute;
-    bottom:0.35rem;
+    /* bottom:0.35rem; */
+    bottom: 2.6vh;
 }
 /* 右边食物 */
 .food_con{
     display: block;
     width: 29.8%;
-    height: 1.7rem;
+    /* height: 1.7rem; */
+    height: 12.7vh;
     float: left;
     margin:0.2rem 0.1rem;
     text-align: center;
@@ -127,7 +150,8 @@
 .food_con img{
     display: block;
     width: 1.09rem;
-    height: 1rem;
+    /* height: 1rem; */
+    height: 7.5vh;
     position: absolute;
     left:0.3rem;
 }

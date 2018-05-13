@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/productlist.css">
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="header">
+        <img src="img/fanhuitubiao拷贝2@2x.png" alt="">
+        商品列表
+    </div>
+    <!-- 标题 -->
+    <div class="product_tit">
+        <span id="sort">综合排序 <img src="img/xiala@2x.png" class="top" alt=""><img src="img/xuanzhongxiala@2x.png"  class="none bottom"></span>
+        <span class="green" id="sales">销量优先</span>
+    </div>
+    <!-- 综合排序弹出 -->
+    <div class="sort none">
+        <span>发布时间</span>
+        <span>价格从低到高</span>
+        <span>价格从高到低</span>
+    </div>
+    <!-- 商品详细产品内容 -->
+    <div class="pro_con">
+        <!-- 每行列表内容 -->
+        <div class="product_details">
+            <div class="product_left">
+                <div class="product_img"><img src="img/chanpin@3x.png" alt=""></div>
+                <div class="product_word">
+                    <h5 class="odd-ellipsis">宁夏中卫养生枸杞</h5>
+                    <p class="odd-ellipsis">粒大饱满、无污染无添加</p>
+                    <span>￥32.00/斤</span><img src="img/jiarugouwuche@2x.png" alt="">
+                </div>
+            </div>
+            <div class="product_right">
+                <div class="product_img"><img src="img/chanpin@3x.png" alt=""></div>
+                <div class="product_word">
+                    <h5 class="odd-ellipsis">宁夏中卫养生枸杞</h5>
+                    <p class="odd-ellipsis">粒大饱满、无污染无添加</p>
+                    <span>￥32.00/斤</span><img src="img/jiarugouwuche@2x.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- 每行列表内容 -->
+        <div class="product_details">
+                <div class="product_left">
+                    <div class="product_img"><img src="img/chanpin@3x.png" alt=""></div>
+                    <div class="product_word">
+                        <h5 class="odd-ellipsis">宁夏中卫养生枸杞</h5>
+                        <p class="odd-ellipsis">粒大饱满、无污染无添加</p>
+                        <span>￥32.00/斤</span><img src="img/jiarugouwuche@2x.png" alt="">
+                    </div>
+                </div>
+                <div class="product_right">
+                    <div class="product_img"><img src="img/chanpin@3x.png" alt=""></div>
+                    <div class="product_word">
+                        <h5 class="odd-ellipsis">宁夏中卫养生枸杞</h5>
+                        <p class="odd-ellipsis">粒大饱满、无污染无添加</p>
+                        <span>￥32.00/斤</span><img src="img/jiarugouwuche@2x.png" alt="">
+                    </div>
+            </div>
+        </div>
+        <!-- 每行列表内容 -->
+        <div class="product_details">
+                <div class="product_left">
+                    <div class="product_img"><img src="img/chanpin@3x.png" alt=""></div>
+                    <div class="product_word">
+                        <h5 class="odd-ellipsis">宁夏中卫养生枸杞</h5>
+                        <p class="odd-ellipsis">粒大饱满、无污染无添加</p>
+                        <span>￥32.00/斤</span><img src="img/jiarugouwuche@2x.png" alt="">
+                    </div>
+                </div>
+                <div class="product_right">
+                    <div class="product_img"><img src="img/chanpin@3x.png" alt=""></div>
+                    <div class="product_word">
+                        <h5 class="odd-ellipsis">宁夏中卫养生枸杞</h5>
+                        <p class="odd-ellipsis">粒大饱满、无污染无添加</p>
+                        <span>￥32.00/斤</span><img src="img/jiarugouwuche@2x.png" alt="">
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/productlist.js"></script>
+    <script>document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+"px"</script>
+    <script>
+        // 全部排序和销量优先的点击
+        $("#sort").click(function(){
+            $("#sort").addClass("green").siblings().removeClass("green");
+            $(".top").addClass("none");
+            $(".bottom").removeClass("none");
+            $(".sort").toggle();
+        });
+        $("#sales").click(function(){
+            $("#sales").addClass("green").siblings().removeClass("green");
+            $(".top").removeClass("none");
+            $(".bottom").addClass("none");
+            $(".sort").hide();
+        })
+        $(".sort>span").click(function(){
+            $(this).addClass("green").siblings().removeClass("green")
+        })
+    </script>
+</body>
+</html>
